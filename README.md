@@ -34,6 +34,6 @@ z=("LF"..pn.."M "..lf.." lvl "..minlvlannounce.."-"..maxlvlannounce.." HardCore"
 c=SendChatMessage
 c(z,GUILD,nil,Guild)
 c(z,"Channel",nil,1)
-c(z,"SAY",nil,1)
+--c(z,"SAY",nil,1)
 end
 ```
