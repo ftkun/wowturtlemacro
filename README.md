@@ -1,10 +1,15 @@
 
 # General macro
 
-## lfm hardcore supermacro
-
+### lfm hardcore supermacro
 extendet lua code*
-```function lfm()
+
+```
+/run lfm()
+```
+
+```
+function lfm()
 local
 lf=("test")
 pn=4-GetNumPartyMembers()
@@ -30,4 +35,5 @@ c=SendChatMessage
 c(z,GUILD,nil,Guild)
 c(z,"Channel",nil,1)
 c(z,"SAY",nil,1)
-end```
+end
+```
