@@ -11,7 +11,7 @@ extendet lua code*
 ```
 function lfm()
 local
-lf=("test")
+lf=("QUEST, DUNGEON, OTHER THINGS WRITE HERE")
 pn=4-GetNumPartyMembers()
 pl=UnitLevel("Player")
 p1=UnitLevel("Party1")
