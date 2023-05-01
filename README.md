@@ -1,7 +1,35 @@
 
 # General macro
 
-### lfm hardcore supermacro
+### Mob dps on you *supermacro
+extendet lua code*
+```
+/run unitdpsonyou()
+```
+
+```
+function unitdpsonyou()
+local
+function round(number,decimals)
+power=10^decimals
+return math.floor(number*power)/power
+end
+L,H=UnitDamage("target")
+S=UnitAttackSpeed("target")
+A=UnitArmor("target")
+AP=UnitArmor("player")
+AL=UnitLevel("target")
+DR=AP/(AP+400+85*AL)
+ADL=(1-DR)*L
+ADH=(1-DR)*H
+DPS=(ADH+ADL)/2/S
+DEFAULT_CHAT_FRAME:AddMessage("Dps On Player:"..round(DPS,2))
+DEFAULT_CHAT_FRAME:AddMessage("Damage On Player:"..round(ADL,2).."-"..round(ADH,2))
+DEFAULT_CHAT_FRAME:AddMessage("Damage:"..round(L,2).."-"..round(H,2))
+end
+```
+
+### lfm hardcore *supermacro
 extendet lua code*
 
 ```
