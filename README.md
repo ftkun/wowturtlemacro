@@ -2,7 +2,7 @@
 # General macro
 
 ### Mob dps on you *supermacro
-extendet lua code*
+extended lua code*
 ```
 /run unitdpsonyou()
 ```
@@ -30,7 +30,7 @@ end
 ```
 
 ### lfm hardcore *supermacro
-extendet lua code*
+extended lua code*
 
 ```
 /run lfm()
