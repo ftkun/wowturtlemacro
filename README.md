@@ -67,7 +67,7 @@ end
 ```
 
 # hunter macro
-## mouseover serpent
+mouseover serpent
 
 ```
 /script if UnitCanAttack("player","mouseover") then TargetUnit("mouseover");CastSpellByName('Serpent Sting');TargetUnit("playertarget");end
