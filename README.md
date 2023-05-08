@@ -65,3 +65,11 @@ c(z,"Channel",nil,1)
 --c(z,"SAY",nil,1)
 end
 ```
+
+# hunter macro
+## mouseover serpent
+
+```
+/script if UnitCanAttack("player","mouseover") then TargetUnit("mouseover");CastSpellByName('Serpent Sting');TargetUnit("playertarget");end
+/cast Serpent Sting
+```
