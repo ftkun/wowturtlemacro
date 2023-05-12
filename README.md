@@ -23,9 +23,9 @@ DR=AP/(AP+400+85*AL)
 ADL=(1-DR)*L
 ADH=(1-DR)*H
 DPS=(ADH+ADL)/2/S
-DEFAULT_CHAT_FRAME:AddMessage("Dps On Player:"..round(DPS,2))
-DEFAULT_CHAT_FRAME:AddMessage("Damage On Player:"..round(ADL,2).."-"..round(ADH,2))
-DEFAULT_CHAT_FRAME:AddMessage("Damage:"..round(L,2).."-"..round(H,2))
+DEFAULT_CHAT_FRAME:AddMessage("Dps On Player:["..round(DPS,2).."]")
+DEFAULT_CHAT_FRAME:AddMessage("Damage On Player:["..round(ADL,2).."-"..round(ADH,2).."]")
+DEFAULT_CHAT_FRAME:AddMessage("Damage:["..round(L,2).."-"..round(H,2).."]")
 end
 ```
 
